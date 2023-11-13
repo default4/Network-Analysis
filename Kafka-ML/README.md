@@ -7,7 +7,7 @@ This project demonstrates a real-time data processing and machine learning appli
 - Python 3.x
 - Apache Kafka
 - Docker (optional, for Docker Compose)
-- Libraries: FastAPI, Kafka-Python, Pandas, Scikit-learn (requirements detailed in `requirements.txt`)
+- Libraries: FastAPI, Kafka-Python, Pandas, Scikit-learn 
 
 ## Installation and Setup
 
