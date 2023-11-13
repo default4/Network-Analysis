@@ -40,19 +40,22 @@ This project demonstrates a real-time data processing and machine learning appli
    ```bash
    python producer-diabets.py
    python producer-example.py
+   ```
 
 2. **Start Kafka Consumers:**
-	```bash
-	python consumer-diabets.py
-	python consumer-example.py
+  ```bash
+  python consumer-diabets.py
+  python consumer-example.py
+  ```
 
 3. **Run FastAPI Application:**
-	```bash
-	uvicorn fastapi_app:app --reload
+  ```bash
+  uvicorn fastapi_app:app --reload
+  ```
 
 4. **Use the Machine Learning Model:**
-	1. The Jupyter notebook diabet-classification.ipynb contains the model training process.
-	2. The trained model is saved as model.pkl, used by the consumers for real-time predictions.
+  1. The Jupyter notebook diabet-classification.ipynb contains the model training process.
+  2. The trained model is saved as model.pkl, used by the consumers for real-time predictions.
 
 ## Usage Examples
 
